@@ -1,0 +1,1127 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01441BE41731C721338E820B /* ClaudeSettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491C4020962CDC2094C53D3 /* ClaudeSettingsRepository.swift */; };
+		07A600C533737097A391F0DC /* PathSubstitutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8557BE2A26EB4FB42AD83FE /* PathSubstitutionTests.swift */; };
+		0A7D84852E54A8D98FDF44DB /* PullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0E45127490C97E58E7926 /* PullView.swift */; };
+		0BC673B08F8D327B0DC483AF /* ClaudeSettingsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A258CAEAA3E48ABCDEF4332 /* ClaudeSettingsRepositoryProtocol.swift */; };
+		0CAE926204D9A8B7922BA39F /* PullViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526B7E68CD92C275E5A80E8 /* PullViewModel.swift */; };
+		0D62FC13F3FD2D710471860E /* GitHubRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3C6A1FD396BAEAA42A9FA /* GitHubRepo.swift */; };
+		113B7B456E0283495F26D728 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C63830F171E9A0A18D69249 /* GitHubUser.swift */; };
+		13C33068ACC3A01BEEFF92DD /* PullInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E682C5287AF933450C6445 /* PullInteractor.swift */; };
+		14D2258F7AC54EDE31F9C7FF /* PushDiffItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559E268C7A7C5D2B558C30E /* PushDiffItem.swift */; };
+		16175FF4835C6C8291267F87 /* SettingsScanWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB75591A9F34E8863AB49A1 /* SettingsScanWorker.swift */; };
+		162FA22058D4A713F3FA92D5 /* GitHubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67347F0A782E36DBC31F699A /* GitHubEndpoint.swift */; };
+		1767934496753DF35339B6B2 /* DashboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EF1E9C7FF09F92B907875 /* DashboardConfigurator.swift */; };
+		183B4F369C8B4B43B079C79F /* SettingsScanWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B5FC191986C968F69638AD /* SettingsScanWorking.swift */; };
+		1B6E78B2440734E25406AA67 /* PushProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25269D2B1A5D5C1A2EE8E085 /* PushProtocols.swift */; };
+		1D265E14D14AEE5C27B5DB5B /* PushInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4801302F0AD3ADED9851E050 /* PushInteractor.swift */; };
+		1E978C35279C72C895C013AA /* TuistBundle+KeepClaude.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6818F5580A82D80FBBD61 /* TuistBundle+KeepClaude.swift */; };
+		1FBD220EE3181C1293A5E4FA /* AuthWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F3849755657B7191260BC1 /* AuthWorking.swift */; };
+		20BE25C029219518F51C8A4E /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103529585C19DEEEB31025 /* GitHubRepository.swift */; };
+		222CAA98109B9545C288FBB7 /* CoreSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86243113F87C067050189157 /* CoreSettings.swift */; };
+		225A6715DAA43BCEF49E680C /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76985419A5A7E7B80F0A8CFA /* DashboardViewModel.swift */; };
+		281151C7E7111D212942C143 /* GitHubPushWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE477C2A10A4A9578A6E0C /* GitHubPushWorking.swift */; };
+		306895B65799AFC2F4AA52DB /* GitHubAPIServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAD20FDBBFBE6BEE0731C3 /* GitHubAPIServicing.swift */; };
+		322320EEA40E080A7E0D6DF0 /* PushAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF972EC147F6B4E98D45048 /* PushAction.swift */; };
+		3320DB65139378411DB68EE9 /* GitHubPullWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43792FA3983EB138BF40960 /* GitHubPullWorking.swift */; };
+		332BC07CF2E792629BE1C5C7 /* SettingsRestoreWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A31A21FF52B09D75F7DDE /* SettingsRestoreWorking.swift */; };
+		33841B7440BE34CF47946BCF /* AppSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE4C57D6B66EF6C926CC2DF /* AppSettingsPresenter.swift */; };
+		3A313723D340BECAE9107CB7 /* AppSettingsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFDFFFEA7E949493C94A092 /* AppSettingsResponse.swift */; };
+		3CDDBBD747FA6990B1AD398B /* SettingsDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960E9566D962A663C345E59 /* SettingsDiff.swift */; };
+		4295FDA96D25F0E3CA1BDC6D /* RestoreOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AE4C31043E0BD60F74EE6 /* RestoreOption.swift */; };
+		46C0A7791D7ACA221F222A74 /* GitHubPushWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671F827D7CA0AD8A5CDED7A /* GitHubPushWorker.swift */; };
+		4955105A3413DAD269584F31 /* FileSystemServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECAE22A58E3709F3ECBFCD /* FileSystemServicing.swift */; };
+		4B25D16BFCB6E4375F1F7CFC /* AppSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67157158FB5EAAEE675C837C /* AppSettingsViewModel.swift */; };
+		4E0A108AD79F8585BDBCE82E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55D15E2CD7F04C3B0AEF28 /* AppConfig.swift */; };
+		51CD95194DE9A574C9AA28A8 /* AppSettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001371F4EEAE7E25FF148770 /* AppSettingsInteractor.swift */; };
+		548530B86D00FB739868FADB /* AuthRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD638AD6E6CF1EA5894ED98E /* AuthRepositoryTests.swift */; };
+		574429F5EADEE32F18451DA8 /* PushConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7E9077741FEE5576E48E4 /* PushConfigurator.swift */; };
+		577C8D406F27246C2AA0B3AC /* PushViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075A4E2D0D5335E24705B5D /* PushViewModel.swift */; };
+		58C19C585F329C73BC5161E9 /* PullAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE3CCDB0F5BF8EC06837D4 /* PullAction.swift */; };
+		5A754302A807AD3EB125193E /* SettingsRestoreWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C35CB70AF563D0CFAC568 /* SettingsRestoreWorker.swift */; };
+		5EB539F029ED04D60A1BEAA5 /* GitHubRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A5E183623FEE07BCF6225 /* GitHubRepositoryProtocol.swift */; };
+		64BE236E6510A53E65F609C3 /* SettingsScanWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B880FAD4E26F73C05BCAE4E /* SettingsScanWorkerTests.swift */; };
+		664EEAB58D2A597A03AFCD40 /* KeepClaudeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BA3E5583AAFF73B3621D8 /* KeepClaudeApp.swift */; };
+		68190D122DDA5B9135E152D6 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB7DC3A98E06DEBEA7C9CF /* NetworkError.swift */; };
+		68D23CDC2B3D0FA5C2B754ED /* AppSettingsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263F59DFA006F45E9036746 /* AppSettingsAction.swift */; };
+		6B2D4606A46260B879129C64 /* DashboardAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ED7A4EC56AC6890204FEF /* DashboardAction.swift */; };
+		6CD0658E0609EC23DCAF62E1 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A71BF250EF603B288DA1D /* AuthError.swift */; };
+		6D8F593413E863740E3F2429 /* GitHubPullWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6BADF46FF540A0A6702AA /* GitHubPullWorker.swift */; };
+		72540BA0020B6C9D7DADB3DE /* AuthWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68B9F8FE94462299AFC3DA /* AuthWorker.swift */; };
+		733921B24D3CD554675C2F2E /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DFA4CAD05A4AB821BB832 /* AppSettingsView.swift */; };
+		75C5BA636E8F09A25842B039 /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E680340F01508FBB7AA6DEB /* PushView.swift */; };
+		794DAAFAD939C725A7863D0F /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D634DD779E4AA770CBC08A /* Manifest.swift */; };
+		7B7FA13F00D558708DED9E6E /* FileSystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BABEA3EB2568E3C92E67C3 /* FileSystemService.swift */; };
+		7BA7F538BA6C4D0D198B0009 /* PushResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51127BE02FB971C6E3A2C128 /* PushResponse.swift */; };
+		8395FB4B244D3577883D0C03 /* AuthRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE69A814726E288477C2BF0 /* AuthRepositoryProtocol.swift */; };
+		84C9208607DFC32003778960 /* GitHubDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84054C89CDF00E0AF13EFE27 /* GitHubDTO.swift */; };
+		860ECBC44A70BC81FE526862 /* ClaudeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BBCF7C8171754C94A4BF5 /* ClaudeSettings.swift */; };
+		865EBFCE6D51D84E381B7B1A /* ClaudeSettingsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F15E78215DBE07B2F6C0A8 /* ClaudeSettingsRepositoryTests.swift */; };
+		871B9278E1127394602D5EBF /* AppSettingsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7026936410AC2AC1C8C6D /* AppSettingsProtocols.swift */; };
+		8E9AA0BF7D649BCE7141F461 /* AppSettingsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03933663765B43EE7F278E8 /* AppSettingsConfigurator.swift */; };
+		8E9DAAC6A2DEA637032F1E24 /* SettingsTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE11FB3014EBFD0A108C4FBC /* SettingsTreeNode.swift */; };
+		9046AF1F43B8076628E63D90 /* PullPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0CF2659A2B9366C7501F9 /* PullPresenter.swift */; };
+		93F4ADBA46A9BB3C207198C6 /* SettingsTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEC85C24CEFFF77E54E285 /* SettingsTreeView.swift */; };
+		96AF433FAAD1B03600FD1A10 /* MockRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB3357CEAD094446576257 /* MockRepositories.swift */; };
+		972462044A4EF345A5B5EB3B /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4412E7CCF38673C77DFF1038 /* DashboardPresenter.swift */; };
+		AB54B7A62BF44CB5C3254C2C /* SkillDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0382808515F19F554902D3 /* SkillDefinition.swift */; };
+		ABE7A7C12A65920FFB4D3DD4 /* DashboardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4784EC2C944D6EBC92E69E5C /* DashboardProtocols.swift */; };
+		AD17B4349553106822650EDA /* MockKeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C0D74F18728B56A50FAFC /* MockKeychainService.swift */; };
+		AE345B72A4C2806D17662B5F /* GitHubPullWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF56F3881D74B26B3C270BF /* GitHubPullWorkerTests.swift */; };
+		B82F411441633555A2CC15FF /* MockFileSystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7153BA707E1774A51DFA38 /* MockFileSystemService.swift */; };
+		B9DE8EE90AEA8BADEF2F72CC /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E425F0FB17DB2803EA396 /* NetworkLogger.swift */; };
+		BD2FA608733E4C264E194E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA3D05642E46D27AF108AB6 /* Assets.xcassets */; };
+		BE6B25F1D28C402BC7A5C371 /* KeepClaudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387EF80F6548F8ECDFFA8699 /* KeepClaudeTests.swift */; };
+		BE8E8A20C91E8A4597C78AC3 /* PullResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C6169C4FC3F0DCFD6C8CC /* PullResponse.swift */; };
+		C3E09483A42AFCADFC636F47 /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E31B31AD3DE2172913DA76 /* SoundFile.swift */; };
+		C708B42706871C2FD4B975F6 /* CommandDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512988029AD5BFA19C182B2 /* CommandDefinition.swift */; };
+		CA68BF1D6C06F47581735C15 /* KeychainServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64497BDB190A62EC9D56E522 /* KeychainServicing.swift */; };
+		CD172953F902797C21692B8F /* SettingsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66294EF13EB98D4D05B4B802 /* SettingsCategory.swift */; };
+		D4A3E2C4DC5C08EC2000859F /* PullConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4362D269E3978EDC7FD9822 /* PullConfigurator.swift */; };
+		D4F4EF1E2920EBC2C3D8EC19 /* GitHubPushWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF464955BCBFF0B723B1EC3C /* GitHubPushWorkerTests.swift */; };
+		E0B1D1F9091C2413EAC2763F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74979CAE1AC3FFE12A2570F8 /* DashboardView.swift */; };
+		E2831A5FD74D056FF64F4077 /* DashboardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697244AB1F468D8657A5337 /* DashboardResponse.swift */; };
+		E4938B42A535C4CE80F569E2 /* PullProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48116C29DC1D926179C6464 /* PullProtocols.swift */; };
+		E6F92D454FC326B70E31433D /* TuistAssets+KeepClaude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057E22AFE3CCDC0E4DE32FD /* TuistAssets+KeepClaude.swift */; };
+		E78A23E415183605C2817E99 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D9417E5DA2223F0F6B47F /* KeychainService.swift */; };
+		EA3793AD22C3A36FFD686C3E /* PluginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097724510CCCDDBF363257EE /* PluginSettings.swift */; };
+		EA44DC53B858B7355695CCA2 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4851AB41F742548904FDFE0E /* DashboardInteractor.swift */; };
+		EB0133ACD942F784B26122A3 /* PushPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE126C41DAF7380EEBA96D /* PushPresenter.swift */; };
+		EBEBFF27A09EC064F9ED6EA2 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CF232466DC3FD7BFF30C6 /* AuthRepository.swift */; };
+		EDE01C386250E75186255FD7 /* PathSubstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23DA94EF7F12AD7F1FFBB95 /* PathSubstitution.swift */; };
+		EF5106435ECA66FA10E1EAE5 /* GitHubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4A669A4D3446345D42243 /* GitHubAPIService.swift */; };
+		FC056F1EF822914C3F77069D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4393D2BBC44DA83102CDEE6 /* Constants.swift */; };
+		FE743C10030AB192B35F37A4 /* MockGitHubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BA4AA4D6A5DD3CE6D7CC7 /* MockGitHubAPIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EC12DFAB6A0E664FD1FA42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB518D62B882E32BD2CBD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDA1B7F4B6AEC98F8555FDF;
+			remoteInfo = KeepClaude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		780BD944353C16B75CF8EEA5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8572A0734F57D5C8A667CD71 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		001371F4EEAE7E25FF148770 /* AppSettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsInteractor.swift; sourceTree = "<group>"; };
+		0491C4020962CDC2094C53D3 /* ClaudeSettingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeSettingsRepository.swift; sourceTree = "<group>"; };
+		097724510CCCDDBF363257EE /* PluginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginSettings.swift; sourceTree = "<group>"; };
+		0B880FAD4E26F73C05BCAE4E /* SettingsScanWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScanWorkerTests.swift; sourceTree = "<group>"; };
+		0DF972EC147F6B4E98D45048 /* PushAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAction.swift; sourceTree = "<group>"; };
+		0E6692832902CEEE00A665CA /* KeepClaudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepClaudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E680340F01508FBB7AA6DEB /* PushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
+		1057E22AFE3CCDC0E4DE32FD /* TuistAssets+KeepClaude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+KeepClaude.swift"; sourceTree = "<group>"; };
+		11AB3357CEAD094446576257 /* MockRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepositories.swift; sourceTree = "<group>"; };
+		11B5FC191986C968F69638AD /* SettingsScanWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScanWorking.swift; sourceTree = "<group>"; };
+		11E31B31AD3DE2172913DA76 /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFile.swift; sourceTree = "<group>"; };
+		19F0E45127490C97E58E7926 /* PullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullView.swift; sourceTree = "<group>"; };
+		19F15E78215DBE07B2F6C0A8 /* ClaudeSettingsRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeSettingsRepositoryTests.swift; sourceTree = "<group>"; };
+		1A7153BA707E1774A51DFA38 /* MockFileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFileSystemService.swift; sourceTree = "<group>"; };
+		1E68B9F8FE94462299AFC3DA /* AuthWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWorker.swift; sourceTree = "<group>"; };
+		1F86C7B3D6795C55861D9D99 /* KeepClaudeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KeepClaudeTests-Info.plist"; sourceTree = "<group>"; };
+		2075A4E2D0D5335E24705B5D /* PushViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewModel.swift; sourceTree = "<group>"; };
+		213A31A21FF52B09D75F7DDE /* SettingsRestoreWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRestoreWorking.swift; sourceTree = "<group>"; };
+		25269D2B1A5D5C1A2EE8E085 /* PushProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushProtocols.swift; sourceTree = "<group>"; };
+		2671F827D7CA0AD8A5CDED7A /* GitHubPushWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPushWorker.swift; sourceTree = "<group>"; };
+		2FBED4C44370E5E53606A02B /* KeepClaude.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeepClaude.entitlements; sourceTree = "<group>"; };
+		300BA4AA4D6A5DD3CE6D7CC7 /* MockGitHubAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGitHubAPIService.swift; sourceTree = "<group>"; };
+		34CB7DC3A98E06DEBEA7C9CF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		34D634DD779E4AA770CBC08A /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
+		387EF80F6548F8ECDFFA8699 /* KeepClaudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepClaudeTests.swift; sourceTree = "<group>"; };
+		3A1DFA4CAD05A4AB821BB832 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		3A258CAEAA3E48ABCDEF4332 /* ClaudeSettingsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeSettingsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		4412E7CCF38673C77DFF1038 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		4784EC2C944D6EBC92E69E5C /* DashboardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardProtocols.swift; sourceTree = "<group>"; };
+		4801302F0AD3ADED9851E050 /* PushInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushInteractor.swift; sourceTree = "<group>"; };
+		4851AB41F742548904FDFE0E /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		4C63830F171E9A0A18D69249 /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		51127BE02FB971C6E3A2C128 /* PushResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushResponse.swift; sourceTree = "<group>"; };
+		520C6169C4FC3F0DCFD6C8CC /* PullResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullResponse.swift; sourceTree = "<group>"; };
+		563D9417E5DA2223F0F6B47F /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		56E0CF2659A2B9366C7501F9 /* PullPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullPresenter.swift; sourceTree = "<group>"; };
+		5E8C35CB70AF563D0CFAC568 /* SettingsRestoreWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRestoreWorker.swift; sourceTree = "<group>"; };
+		636EF1E9C7FF09F92B907875 /* DashboardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardConfigurator.swift; sourceTree = "<group>"; };
+		64497BDB190A62EC9D56E522 /* KeychainServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServicing.swift; sourceTree = "<group>"; };
+		66294EF13EB98D4D05B4B802 /* SettingsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCategory.swift; sourceTree = "<group>"; };
+		67157158FB5EAAEE675C837C /* AppSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewModel.swift; sourceTree = "<group>"; };
+		67347F0A782E36DBC31F699A /* GitHubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubEndpoint.swift; sourceTree = "<group>"; };
+		6BC7026936410AC2AC1C8C6D /* AppSettingsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsProtocols.swift; sourceTree = "<group>"; };
+		6BFFEF0131419FB70DBAC0EE /* KeepClaude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepClaude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB6BADF46FF540A0A6702AA /* GitHubPullWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPullWorker.swift; sourceTree = "<group>"; };
+		717BBCF7C8171754C94A4BF5 /* ClaudeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeSettings.swift; sourceTree = "<group>"; };
+		74979CAE1AC3FFE12A2570F8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		7697244AB1F468D8657A5337 /* DashboardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardResponse.swift; sourceTree = "<group>"; };
+		76985419A5A7E7B80F0A8CFA /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		7A3BA3E5583AAFF73B3621D8 /* KeepClaudeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepClaudeApp.swift; sourceTree = "<group>"; };
+		7B6C0D74F18728B56A50FAFC /* MockKeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeychainService.swift; sourceTree = "<group>"; };
+		7EFDFFFEA7E949493C94A092 /* AppSettingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsResponse.swift; sourceTree = "<group>"; };
+		83CAD20FDBBFBE6BEE0731C3 /* GitHubAPIServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIServicing.swift; sourceTree = "<group>"; };
+		84054C89CDF00E0AF13EFE27 /* GitHubDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDTO.swift; sourceTree = "<group>"; };
+		8526B7E68CD92C275E5A80E8 /* PullViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullViewModel.swift; sourceTree = "<group>"; };
+		86243113F87C067050189157 /* CoreSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSettings.swift; sourceTree = "<group>"; };
+		864CF232466DC3FD7BFF30C6 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		88103529585C19DEEEB31025 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		898E425F0FB17DB2803EA396 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		8AB3C6A1FD396BAEAA42A9FA /* GitHubRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepo.swift; sourceTree = "<group>"; };
+		9559E268C7A7C5D2B558C30E /* PushDiffItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDiffItem.swift; sourceTree = "<group>"; };
+		978ED7A4EC56AC6890204FEF /* DashboardAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAction.swift; sourceTree = "<group>"; };
+		97F3849755657B7191260BC1 /* AuthWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWorking.swift; sourceTree = "<group>"; };
+		A2BABEA3EB2568E3C92E67C3 /* FileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemService.swift; sourceTree = "<group>"; };
+		A48116C29DC1D926179C6464 /* PullProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullProtocols.swift; sourceTree = "<group>"; };
+		AAB75591A9F34E8863AB49A1 /* SettingsScanWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScanWorker.swift; sourceTree = "<group>"; };
+		ACFE3CCDB0F5BF8EC06837D4 /* PullAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullAction.swift; sourceTree = "<group>"; };
+		ADB7E9077741FEE5576E48E4 /* PushConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushConfigurator.swift; sourceTree = "<group>"; };
+		B43792FA3983EB138BF40960 /* GitHubPullWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPullWorking.swift; sourceTree = "<group>"; };
+		B54D63ED0EE8DFE322B6063F /* KeepClaude-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KeepClaude-Info.plist"; sourceTree = "<group>"; };
+		B8ECAE22A58E3709F3ECBFCD /* FileSystemServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemServicing.swift; sourceTree = "<group>"; };
+		BAF56F3881D74B26B3C270BF /* GitHubPullWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPullWorkerTests.swift; sourceTree = "<group>"; };
+		BCC6818F5580A82D80FBBD61 /* TuistBundle+KeepClaude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+KeepClaude.swift"; sourceTree = "<group>"; };
+		BFE4C57D6B66EF6C926CC2DF /* AppSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsPresenter.swift; sourceTree = "<group>"; };
+		C512988029AD5BFA19C182B2 /* CommandDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandDefinition.swift; sourceTree = "<group>"; };
+		C8557BE2A26EB4FB42AD83FE /* PathSubstitutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSubstitutionTests.swift; sourceTree = "<group>"; };
+		CFDE477C2A10A4A9578A6E0C /* GitHubPushWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPushWorking.swift; sourceTree = "<group>"; };
+		D05A71BF250EF603B288DA1D /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		D4362D269E3978EDC7FD9822 /* PullConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullConfigurator.swift; sourceTree = "<group>"; };
+		D6E682C5287AF933450C6445 /* PullInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullInteractor.swift; sourceTree = "<group>"; };
+		DD55D15E2CD7F04C3B0AEF28 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		DD638AD6E6CF1EA5894ED98E /* AuthRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryTests.swift; sourceTree = "<group>"; };
+		DFE69A814726E288477C2BF0 /* AuthRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryProtocol.swift; sourceTree = "<group>"; };
+		E03933663765B43EE7F278E8 /* AppSettingsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsConfigurator.swift; sourceTree = "<group>"; };
+		E23DA94EF7F12AD7F1FFBB95 /* PathSubstitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSubstitution.swift; sourceTree = "<group>"; };
+		EAA3D05642E46D27AF108AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA4A669A4D3446345D42243 /* GitHubAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIService.swift; sourceTree = "<group>"; };
+		EADE126C41DAF7380EEBA96D /* PushPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPresenter.swift; sourceTree = "<group>"; };
+		EE6AE4C31043E0BD60F74EE6 /* RestoreOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreOption.swift; sourceTree = "<group>"; };
+		EFEEC85C24CEFFF77E54E285 /* SettingsTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTreeView.swift; sourceTree = "<group>"; };
+		F263F59DFA006F45E9036746 /* AppSettingsAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsAction.swift; sourceTree = "<group>"; };
+		F4393D2BBC44DA83102CDEE6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F960E9566D962A663C345E59 /* SettingsDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDiff.swift; sourceTree = "<group>"; };
+		FA0382808515F19F554902D3 /* SkillDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDefinition.swift; sourceTree = "<group>"; };
+		FC3A5E183623FEE07BCF6225 /* GitHubRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryProtocol.swift; sourceTree = "<group>"; };
+		FE11FB3014EBFD0A108C4FBC /* SettingsTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTreeNode.swift; sourceTree = "<group>"; };
+		FF464955BCBFF0B723B1EC3C /* GitHubPushWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPushWorkerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40530E56C2BF6A0697E0870F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2FD8217144A5054C2ACE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BF94E630B52A9D22104F1B /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				9980A9DDF44EB9EF30898FA7 /* Domain */,
+				D3C26047990D1AA76055E76E /* Scene */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		0AFBE5270AA9E3486389C9E3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B64F857FA10E3E3AEBE3FA1A /* Components */,
+				D05A71BF250EF603B288DA1D /* AuthError.swift */,
+				F4393D2BBC44DA83102CDEE6 /* Constants.swift */,
+				E23DA94EF7F12AD7F1FFBB95 /* PathSubstitution.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1642A4A6AAB62A4A94B35F1F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84054C89CDF00E0AF13EFE27 /* GitHubDTO.swift */,
+				67347F0A782E36DBC31F699A /* GitHubEndpoint.swift */,
+				34CB7DC3A98E06DEBEA7C9CF /* NetworkError.swift */,
+				898E425F0FB17DB2803EA396 /* NetworkLogger.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2E4F3281F86DC1E26B995B83 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FE11FB3014EBFD0A108C4FBC /* SettingsTreeNode.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2FA7745093C0B31BDCAB1538 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECAE22A58E3709F3ECBFCD /* FileSystemServicing.swift */,
+				83CAD20FDBBFBE6BEE0731C3 /* GitHubAPIServicing.swift */,
+				64497BDB190A62EC9D56E522 /* KeychainServicing.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		36E17FDEF8B123C652D989F2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9559E268C7A7C5D2B558C30E /* PushDiffItem.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		375CAAC8247F26C0E40B6309 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				84EFFCA8800B26EFF5F3E662 /* Protocols */,
+				1E68B9F8FE94462299AFC3DA /* AuthWorker.swift */,
+				6FB6BADF46FF540A0A6702AA /* GitHubPullWorker.swift */,
+				2671F827D7CA0AD8A5CDED7A /* GitHubPushWorker.swift */,
+				5E8C35CB70AF563D0CFAC568 /* SettingsRestoreWorker.swift */,
+				AAB75591A9F34E8863AB49A1 /* SettingsScanWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		387932A5F958605C4E15D7AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3D05642E46D27AF108AB6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AD5AFCAAF112AD827CD27F9 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				1642A4A6AAB62A4A94B35F1F /* Networking */,
+				2FA7745093C0B31BDCAB1538 /* Protocols */,
+				A2BABEA3EB2568E3C92E67C3 /* FileSystemService.swift */,
+				EAA4A669A4D3446345D42243 /* GitHubAPIService.swift */,
+				563D9417E5DA2223F0F6B47F /* KeychainService.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		447B0AAF5A5A6748AB6FC6BA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				978ED7A4EC56AC6890204FEF /* DashboardAction.swift */,
+				636EF1E9C7FF09F92B907875 /* DashboardConfigurator.swift */,
+				4851AB41F742548904FDFE0E /* DashboardInteractor.swift */,
+				4412E7CCF38673C77DFF1038 /* DashboardPresenter.swift */,
+				4784EC2C944D6EBC92E69E5C /* DashboardProtocols.swift */,
+				7697244AB1F468D8657A5337 /* DashboardResponse.swift */,
+				74979CAE1AC3FFE12A2570F8 /* DashboardView.swift */,
+				76985419A5A7E7B80F0A8CFA /* DashboardViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		48A22BEFAEE9DE75022491B3 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				BFED4237B6E55332A5858BFD /* App */,
+				956E2672371401F4BD3D9D7B /* Derived */,
+				DC0C438794C30080966ABEB8 /* Tests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		510C950126DD1B58506A1582 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1057E22AFE3CCDC0E4DE32FD /* TuistAssets+KeepClaude.swift */,
+				BCC6818F5580A82D80FBBD61 /* TuistBundle+KeepClaude.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5A3B7AD5C9F5D5D64DC69F46 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				BAF56F3881D74B26B3C270BF /* GitHubPullWorkerTests.swift */,
+				FF464955BCBFF0B723B1EC3C /* GitHubPushWorkerTests.swift */,
+				0B880FAD4E26F73C05BCAE4E /* SettingsScanWorkerTests.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		610D5B2B0FBE476527F86305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFFEF0131419FB70DBAC0EE /* KeepClaude.app */,
+				0E6692832902CEEE00A665CA /* KeepClaudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6391F6C26D202662180BBC7E = {
+			isa = PBXGroup;
+			children = (
+				48A22BEFAEE9DE75022491B3 /* Project */,
+				610D5B2B0FBE476527F86305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E4688FDFCC3E59761377BE4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				07BF94E630B52A9D22104F1B /* AppSettings */,
+				BE09C5965DD92672A24A7B28 /* Dashboard */,
+				A463D108BCF01CE1B97F97F0 /* Pull */,
+				7AC0A2E3C09D6002A8DC164D /* Push */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		70BCC93A027A8C73FC556A29 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				ACFE3CCDB0F5BF8EC06837D4 /* PullAction.swift */,
+				D4362D269E3978EDC7FD9822 /* PullConfigurator.swift */,
+				D6E682C5287AF933450C6445 /* PullInteractor.swift */,
+				56E0CF2659A2B9366C7501F9 /* PullPresenter.swift */,
+				A48116C29DC1D926179C6464 /* PullProtocols.swift */,
+				520C6169C4FC3F0DCFD6C8CC /* PullResponse.swift */,
+				19F0E45127490C97E58E7926 /* PullView.swift */,
+				8526B7E68CD92C275E5A80E8 /* PullViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		75F89095E1D0E6BE6E6A5D48 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DFE69A814726E288477C2BF0 /* AuthRepositoryProtocol.swift */,
+				3A258CAEAA3E48ABCDEF4332 /* ClaudeSettingsRepositoryProtocol.swift */,
+				FC3A5E183623FEE07BCF6225 /* GitHubRepositoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		77DD7742954279FA2A8841CE /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				0DF972EC147F6B4E98D45048 /* PushAction.swift */,
+				ADB7E9077741FEE5576E48E4 /* PushConfigurator.swift */,
+				4801302F0AD3ADED9851E050 /* PushInteractor.swift */,
+				EADE126C41DAF7380EEBA96D /* PushPresenter.swift */,
+				25269D2B1A5D5C1A2EE8E085 /* PushProtocols.swift */,
+				51127BE02FB971C6E3A2C128 /* PushResponse.swift */,
+				0E680340F01508FBB7AA6DEB /* PushView.swift */,
+				2075A4E2D0D5335E24705B5D /* PushViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		7AC0A2E3C09D6002A8DC164D /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				36E17FDEF8B123C652D989F2 /* Domain */,
+				77DD7742954279FA2A8841CE /* Scene */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		7C5E887CA9010F59671868D9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF69E0D7A9B588C423DDA8 /* Repositories */,
+				C0EB48611C1A2F8324FEE561 /* Services */,
+				A0FDDC2E1B6B22DF1404F5ED /* Shared */,
+				5A3B7AD5C9F5D5D64DC69F46 /* Workers */,
+				387EF80F6548F8ECDFFA8699 /* KeepClaudeTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		84EFFCA8800B26EFF5F3E662 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				97F3849755657B7191260BC1 /* AuthWorking.swift */,
+				B43792FA3983EB138BF40960 /* GitHubPullWorking.swift */,
+				CFDE477C2A10A4A9578A6E0C /* GitHubPushWorking.swift */,
+				213A31A21FF52B09D75F7DDE /* SettingsRestoreWorking.swift */,
+				11B5FC191986C968F69638AD /* SettingsScanWorking.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8BE4DABB0FC53E9CC58061DC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADD06FD3529A87447A53DC /* Data */,
+				6E4688FDFCC3E59761377BE4 /* Features */,
+				3AD5AFCAAF112AD827CD27F9 /* Infrastructure */,
+				0AFBE5270AA9E3486389C9E3 /* Shared */,
+				7A3BA3E5583AAFF73B3621D8 /* KeepClaudeApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		956E2672371401F4BD3D9D7B /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				D3397F96BA7230E3B67AB47F /* Entitlements */,
+				CD5FC1EE1107F7375F209DD1 /* InfoPlists */,
+				510C950126DD1B58506A1582 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		9980A9DDF44EB9EF30898FA7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DD55D15E2CD7F04C3B0AEF28 /* AppConfig.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A0FDDC2E1B6B22DF1404F5ED /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C8557BE2A26EB4FB42AD83FE /* PathSubstitutionTests.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A463D108BCF01CE1B97F97F0 /* Pull */ = {
+			isa = PBXGroup;
+			children = (
+				DD37E67C42D6BBF6E4811328 /* Domain */,
+				70BCC93A027A8C73FC556A29 /* Scene */,
+			);
+			path = Pull;
+			sourceTree = "<group>";
+		};
+		B64F857FA10E3E3AEBE3FA1A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EFEEC85C24CEFFF77E54E285 /* SettingsTreeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BE09C5965DD92672A24A7B28 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2E4F3281F86DC1E26B995B83 /* Domain */,
+				447B0AAF5A5A6748AB6FC6BA /* Scene */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		BFED4237B6E55332A5858BFD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				387932A5F958605C4E15D7AA /* Resources */,
+				8BE4DABB0FC53E9CC58061DC /* Sources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C0EB48611C1A2F8324FEE561 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A7153BA707E1774A51DFA38 /* MockFileSystemService.swift */,
+				300BA4AA4D6A5DD3CE6D7CC7 /* MockGitHubAPIService.swift */,
+				7B6C0D74F18728B56A50FAFC /* MockKeychainService.swift */,
+				11AB3357CEAD094446576257 /* MockRepositories.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C1ADD06FD3529A87447A53DC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F1870E77FCB3586BA2D33449 /* Entities */,
+				DEFB5CB72C16181CF6D2118C /* Repositories */,
+				375CAAC8247F26C0E40B6309 /* Workers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CD5FC1EE1107F7375F209DD1 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				B54D63ED0EE8DFE322B6063F /* KeepClaude-Info.plist */,
+				1F86C7B3D6795C55861D9D99 /* KeepClaudeTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		D3397F96BA7230E3B67AB47F /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				2FBED4C44370E5E53606A02B /* KeepClaude.entitlements */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		D3C26047990D1AA76055E76E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F263F59DFA006F45E9036746 /* AppSettingsAction.swift */,
+				E03933663765B43EE7F278E8 /* AppSettingsConfigurator.swift */,
+				001371F4EEAE7E25FF148770 /* AppSettingsInteractor.swift */,
+				BFE4C57D6B66EF6C926CC2DF /* AppSettingsPresenter.swift */,
+				6BC7026936410AC2AC1C8C6D /* AppSettingsProtocols.swift */,
+				7EFDFFFEA7E949493C94A092 /* AppSettingsResponse.swift */,
+				3A1DFA4CAD05A4AB821BB832 /* AppSettingsView.swift */,
+				67157158FB5EAAEE675C837C /* AppSettingsViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D7DF69E0D7A9B588C423DDA8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DD638AD6E6CF1EA5894ED98E /* AuthRepositoryTests.swift */,
+				19F15E78215DBE07B2F6C0A8 /* ClaudeSettingsRepositoryTests.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DC0C438794C30080966ABEB8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C5E887CA9010F59671868D9 /* Sources */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DD37E67C42D6BBF6E4811328 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EE6AE4C31043E0BD60F74EE6 /* RestoreOption.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DEFB5CB72C16181CF6D2118C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				75F89095E1D0E6BE6E6A5D48 /* Protocols */,
+				864CF232466DC3FD7BFF30C6 /* AuthRepository.swift */,
+				0491C4020962CDC2094C53D3 /* ClaudeSettingsRepository.swift */,
+				88103529585C19DEEEB31025 /* GitHubRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F1870E77FCB3586BA2D33449 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				717BBCF7C8171754C94A4BF5 /* ClaudeSettings.swift */,
+				C512988029AD5BFA19C182B2 /* CommandDefinition.swift */,
+				86243113F87C067050189157 /* CoreSettings.swift */,
+				8AB3C6A1FD396BAEAA42A9FA /* GitHubRepo.swift */,
+				4C63830F171E9A0A18D69249 /* GitHubUser.swift */,
+				34D634DD779E4AA770CBC08A /* Manifest.swift */,
+				097724510CCCDDBF363257EE /* PluginSettings.swift */,
+				66294EF13EB98D4D05B4B802 /* SettingsCategory.swift */,
+				F960E9566D962A663C345E59 /* SettingsDiff.swift */,
+				FA0382808515F19F554902D3 /* SkillDefinition.swift */,
+				11E31B31AD3DE2172913DA76 /* SoundFile.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CDA1B7F4B6AEC98F8555FDF /* KeepClaude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0F9266E85433845FB95558 /* Build configuration list for PBXNativeTarget "KeepClaude" */;
+			buildPhases = (
+				ECE580291308CAE94EF026B6 /* Sources */,
+				F113C616136101F585A980DC /* Resources */,
+				40530E56C2BF6A0697E0870F /* Frameworks */,
+				8572A0734F57D5C8A667CD71 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepClaude;
+			packageProductDependencies = (
+			);
+			productName = KeepClaude;
+			productReference = 6BFFEF0131419FB70DBAC0EE /* KeepClaude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFEC0CE3DA99F258085121B5 /* KeepClaudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A4B2ABD0B5AAF465B34214 /* Build configuration list for PBXNativeTarget "KeepClaudeTests" */;
+			buildPhases = (
+				E404C25431A8E6BF71270D34 /* Sources */,
+				4EEE12FA670DE0CC3F317630 /* Resources */,
+				FD2FD8217144A5054C2ACE26 /* Frameworks */,
+				780BD944353C16B75CF8EEA5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E5EE03EFA358DD9FA3AF81 /* PBXTargetDependency */,
+			);
+			name = KeepClaudeTests;
+			packageProductDependencies = (
+			);
+			productName = KeepClaudeTests;
+			productReference = 0E6692832902CEEE00A665CA /* KeepClaudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB518D62B882E32BD2CBD75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					DFEC0CE3DA99F258085121B5 = {
+						TestTargetID = 6CDA1B7F4B6AEC98F8555FDF;
+					};
+				};
+			};
+			buildConfigurationList = AF9111CD36D54A82B7F3ECBE /* Build configuration list for PBXProject "KeepClaude" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6391F6C26D202662180BBC7E;
+			productRefGroup = 610D5B2B0FBE476527F86305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CDA1B7F4B6AEC98F8555FDF /* KeepClaude */,
+				DFEC0CE3DA99F258085121B5 /* KeepClaudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEE12FA670DE0CC3F317630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113C616136101F585A980DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FA608733E4C264E194E30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E404C25431A8E6BF71270D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6B25F1D28C402BC7A5C371 /* KeepClaudeTests.swift in Sources */,
+				548530B86D00FB739868FADB /* AuthRepositoryTests.swift in Sources */,
+				865EBFCE6D51D84E381B7B1A /* ClaudeSettingsRepositoryTests.swift in Sources */,
+				B82F411441633555A2CC15FF /* MockFileSystemService.swift in Sources */,
+				FE743C10030AB192B35F37A4 /* MockGitHubAPIService.swift in Sources */,
+				AD17B4349553106822650EDA /* MockKeychainService.swift in Sources */,
+				96AF433FAAD1B03600FD1A10 /* MockRepositories.swift in Sources */,
+				07A600C533737097A391F0DC /* PathSubstitutionTests.swift in Sources */,
+				AE345B72A4C2806D17662B5F /* GitHubPullWorkerTests.swift in Sources */,
+				D4F4EF1E2920EBC2C3D8EC19 /* GitHubPushWorkerTests.swift in Sources */,
+				64BE236E6510A53E65F609C3 /* SettingsScanWorkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE580291308CAE94EF026B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860ECBC44A70BC81FE526862 /* ClaudeSettings.swift in Sources */,
+				C708B42706871C2FD4B975F6 /* CommandDefinition.swift in Sources */,
+				222CAA98109B9545C288FBB7 /* CoreSettings.swift in Sources */,
+				0D62FC13F3FD2D710471860E /* GitHubRepo.swift in Sources */,
+				113B7B456E0283495F26D728 /* GitHubUser.swift in Sources */,
+				794DAAFAD939C725A7863D0F /* Manifest.swift in Sources */,
+				EA3793AD22C3A36FFD686C3E /* PluginSettings.swift in Sources */,
+				CD172953F902797C21692B8F /* SettingsCategory.swift in Sources */,
+				3CDDBBD747FA6990B1AD398B /* SettingsDiff.swift in Sources */,
+				AB54B7A62BF44CB5C3254C2C /* SkillDefinition.swift in Sources */,
+				C3E09483A42AFCADFC636F47 /* SoundFile.swift in Sources */,
+				EBEBFF27A09EC064F9ED6EA2 /* AuthRepository.swift in Sources */,
+				01441BE41731C721338E820B /* ClaudeSettingsRepository.swift in Sources */,
+				20BE25C029219518F51C8A4E /* GitHubRepository.swift in Sources */,
+				8395FB4B244D3577883D0C03 /* AuthRepositoryProtocol.swift in Sources */,
+				0BC673B08F8D327B0DC483AF /* ClaudeSettingsRepositoryProtocol.swift in Sources */,
+				5EB539F029ED04D60A1BEAA5 /* GitHubRepositoryProtocol.swift in Sources */,
+				72540BA0020B6C9D7DADB3DE /* AuthWorker.swift in Sources */,
+				6D8F593413E863740E3F2429 /* GitHubPullWorker.swift in Sources */,
+				46C0A7791D7ACA221F222A74 /* GitHubPushWorker.swift in Sources */,
+				1FBD220EE3181C1293A5E4FA /* AuthWorking.swift in Sources */,
+				3320DB65139378411DB68EE9 /* GitHubPullWorking.swift in Sources */,
+				281151C7E7111D212942C143 /* GitHubPushWorking.swift in Sources */,
+				332BC07CF2E792629BE1C5C7 /* SettingsRestoreWorking.swift in Sources */,
+				183B4F369C8B4B43B079C79F /* SettingsScanWorking.swift in Sources */,
+				5A754302A807AD3EB125193E /* SettingsRestoreWorker.swift in Sources */,
+				16175FF4835C6C8291267F87 /* SettingsScanWorker.swift in Sources */,
+				4E0A108AD79F8585BDBCE82E /* AppConfig.swift in Sources */,
+				68D23CDC2B3D0FA5C2B754ED /* AppSettingsAction.swift in Sources */,
+				8E9AA0BF7D649BCE7141F461 /* AppSettingsConfigurator.swift in Sources */,
+				51CD95194DE9A574C9AA28A8 /* AppSettingsInteractor.swift in Sources */,
+				33841B7440BE34CF47946BCF /* AppSettingsPresenter.swift in Sources */,
+				871B9278E1127394602D5EBF /* AppSettingsProtocols.swift in Sources */,
+				3A313723D340BECAE9107CB7 /* AppSettingsResponse.swift in Sources */,
+				733921B24D3CD554675C2F2E /* AppSettingsView.swift in Sources */,
+				4B25D16BFCB6E4375F1F7CFC /* AppSettingsViewModel.swift in Sources */,
+				8E9DAAC6A2DEA637032F1E24 /* SettingsTreeNode.swift in Sources */,
+				6B2D4606A46260B879129C64 /* DashboardAction.swift in Sources */,
+				1767934496753DF35339B6B2 /* DashboardConfigurator.swift in Sources */,
+				EA44DC53B858B7355695CCA2 /* DashboardInteractor.swift in Sources */,
+				972462044A4EF345A5B5EB3B /* DashboardPresenter.swift in Sources */,
+				ABE7A7C12A65920FFB4D3DD4 /* DashboardProtocols.swift in Sources */,
+				E2831A5FD74D056FF64F4077 /* DashboardResponse.swift in Sources */,
+				E0B1D1F9091C2413EAC2763F /* DashboardView.swift in Sources */,
+				225A6715DAA43BCEF49E680C /* DashboardViewModel.swift in Sources */,
+				4295FDA96D25F0E3CA1BDC6D /* RestoreOption.swift in Sources */,
+				58C19C585F329C73BC5161E9 /* PullAction.swift in Sources */,
+				D4A3E2C4DC5C08EC2000859F /* PullConfigurator.swift in Sources */,
+				13C33068ACC3A01BEEFF92DD /* PullInteractor.swift in Sources */,
+				9046AF1F43B8076628E63D90 /* PullPresenter.swift in Sources */,
+				E4938B42A535C4CE80F569E2 /* PullProtocols.swift in Sources */,
+				BE8E8A20C91E8A4597C78AC3 /* PullResponse.swift in Sources */,
+				0A7D84852E54A8D98FDF44DB /* PullView.swift in Sources */,
+				0CAE926204D9A8B7922BA39F /* PullViewModel.swift in Sources */,
+				14D2258F7AC54EDE31F9C7FF /* PushDiffItem.swift in Sources */,
+				322320EEA40E080A7E0D6DF0 /* PushAction.swift in Sources */,
+				574429F5EADEE32F18451DA8 /* PushConfigurator.swift in Sources */,
+				1D265E14D14AEE5C27B5DB5B /* PushInteractor.swift in Sources */,
+				EB0133ACD942F784B26122A3 /* PushPresenter.swift in Sources */,
+				1B6E78B2440734E25406AA67 /* PushProtocols.swift in Sources */,
+				7BA7F538BA6C4D0D198B0009 /* PushResponse.swift in Sources */,
+				75C5BA636E8F09A25842B039 /* PushView.swift in Sources */,
+				577C8D406F27246C2AA0B3AC /* PushViewModel.swift in Sources */,
+				7B7FA13F00D558708DED9E6E /* FileSystemService.swift in Sources */,
+				EF5106435ECA66FA10E1EAE5 /* GitHubAPIService.swift in Sources */,
+				E78A23E415183605C2817E99 /* KeychainService.swift in Sources */,
+				84C9208607DFC32003778960 /* GitHubDTO.swift in Sources */,
+				162FA22058D4A713F3FA92D5 /* GitHubEndpoint.swift in Sources */,
+				68190D122DDA5B9135E152D6 /* NetworkError.swift in Sources */,
+				B9DE8EE90AEA8BADEF2F72CC /* NetworkLogger.swift in Sources */,
+				4955105A3413DAD269584F31 /* FileSystemServicing.swift in Sources */,
+				306895B65799AFC2F4AA52DB /* GitHubAPIServicing.swift in Sources */,
+				CA68BF1D6C06F47581735C15 /* KeychainServicing.swift in Sources */,
+				664EEAB58D2A597A03AFCD40 /* KeepClaudeApp.swift in Sources */,
+				6CD0658E0609EC23DCAF62E1 /* AuthError.swift in Sources */,
+				93F4ADBA46A9BB3C207198C6 /* SettingsTreeView.swift in Sources */,
+				FC056F1EF822914C3F77069D /* Constants.swift in Sources */,
+				EDE01C386250E75186255FD7 /* PathSubstitution.swift in Sources */,
+				E6F92D454FC326B70E31433D /* TuistAssets+KeepClaude.swift in Sources */,
+				1E978C35279C72C895C013AA /* TuistBundle+KeepClaude.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E5EE03EFA358DD9FA3AF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeepClaude;
+			target = 6CDA1B7F4B6AEC98F8555FDF /* KeepClaude */;
+			targetProxy = 1EC12DFAB6A0E664FD1FA42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E821CC5EC87E001124D6C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F9CFE72A36441CB092704E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/KeepClaudeTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inhochoi.KeepClaudeTests;
+				PRODUCT_NAME = KeepClaudeTests;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepClaude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeepClaude";
+				TEST_TARGET_NAME = KeepClaude;
+			};
+			name = Release;
+		};
+		133122AC5F65D1A598643356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/KeepClaudeTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inhochoi.KeepClaudeTests;
+				PRODUCT_NAME = KeepClaudeTests;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepClaude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeepClaude";
+				TEST_TARGET_NAME = KeepClaude;
+			};
+			name = Debug;
+		};
+		427ECA22F16CEE2E05BA32BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Derived/Entitlements/KeepClaude.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/KeepClaude-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inhochoi.KeepClaude;
+				PRODUCT_NAME = KeepClaude;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C910072A8CBD340258F192D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Derived/Entitlements/KeepClaude.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/KeepClaude-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inhochoi.KeepClaude;
+				PRODUCT_NAME = KeepClaude;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAF02C5446965AC460463D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A4B2ABD0B5AAF465B34214 /* Build configuration list for PBXNativeTarget "KeepClaudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133122AC5F65D1A598643356 /* Debug */,
+				0F9CFE72A36441CB092704E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9111CD36D54A82B7F3ECBE /* Build configuration list for PBXProject "KeepClaude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAF02C5446965AC460463D4 /* Debug */,
+				0E821CC5EC87E001124D6C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0F9266E85433845FB95558 /* Build configuration list for PBXNativeTarget "KeepClaude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C910072A8CBD340258F192D4 /* Debug */,
+				427ECA22F16CEE2E05BA32BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB518D62B882E32BD2CBD75 /* Project object */;
+}
