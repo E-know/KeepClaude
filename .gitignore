@@ -14,6 +14,7 @@ build/
 
 # Tuist
 Derived/
+.tuist-generated
 
 # Swift Package Manager
 .build/
