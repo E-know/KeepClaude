@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+
+# Tuist
+Derived/
+
+# Swift Package Manager
+.build/
+Packages/
+
+# Claude Code
+.claude/settings.local.json
