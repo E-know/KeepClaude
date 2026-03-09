@@ -8,7 +8,7 @@ struct PullView: View {
         HSplitView {
             // Left: Repo input + fetch
             VStack(alignment: .leading, spacing: 16) {
-                GroupBox("원격 저장소") {
+                GroupBox {
                     VStack(alignment: .leading, spacing: 8) {
                         TextField("https://github.com/user/repo", text: $viewModel.repoURL)
                             .textFieldStyle(.roundedBorder)
@@ -22,13 +22,17 @@ struct PullView: View {
                                 .frame(maxWidth: .infinity)
                         }
                         .buttonStyle(.borderedProminent)
+                        .controlSize(.large)
                         .disabled(viewModel.parsedRepo == nil || viewModel.isLoading)
                     }
-                    .padding(.vertical, 4)
+                    .padding(.vertical, 8)
+                } label: {
+                    Label("원격 저장소", systemImage: "externaldrive.connected.to.line.below")
+                        .font(.headline)
                 }
 
                 if viewModel.isFetched {
-                    GroupBox("복원 항목") {
+                    GroupBox {
                         VStack(alignment: .leading, spacing: 8) {
                             ForEach(viewModel.restoreOptions) { option in
                                 Toggle(isOn: optionBinding(for: option.category)) {
@@ -36,45 +40,57 @@ struct PullView: View {
                                         Label(option.category.displayName, systemImage: option.category.iconName)
                                         if option.existsLocally {
                                             Text("(로컬에 존재)")
-                                                .font(.caption)
+                                                .font(.callout)
                                                 .foregroundStyle(.orange)
                                         }
                                     }
                                 }
                             }
                         }
-                        .padding(.vertical, 4)
+                        .padding(.vertical, 8)
+                    } label: {
+                        Label("복원 항목", systemImage: "arrow.down.doc")
+                            .font(.headline)
                     }
 
                     Spacer()
 
-                    if let error = viewModel.errorMessage {
-                        Label(error, systemImage: "exclamationmark.triangle")
-                            .font(.caption)
-                            .foregroundStyle(.red)
-                    }
+                    VStack(alignment: .leading, spacing: 4) {
+                        if let error = viewModel.errorMessage {
+                            Label(error, systemImage: "exclamationmark.triangle")
+                                .font(.callout)
+                                .foregroundStyle(.red)
+                                .transition(.opacity)
+                        }
 
-                    if viewModel.restoreSuccess {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Label("복원 완료!", systemImage: "checkmark.circle.fill")
-                                .foregroundStyle(.green)
-                            if let url = viewModel.backupURL {
-                                Text("백업: \(url.lastPathComponent)")
-                                    .font(.caption)
+                        if viewModel.restoreSuccess {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Label("복원 완료!", systemImage: "checkmark.circle.fill")
+                                    .font(.callout)
+                                    .foregroundStyle(.green)
+                                if let url = viewModel.backupURL {
+                                    Text("백업: \(url.lastPathComponent)")
+                                        .font(.callout)
+                                        .foregroundStyle(.secondary)
+                                }
+                            }
+                            .transition(.opacity)
+                        }
+
+                        if viewModel.isRestoring {
+                            HStack {
+                                ProgressView()
+                                    .controlSize(.small)
+                                Text(viewModel.progressMessage)
+                                    .font(.callout)
                                     .foregroundStyle(.secondary)
                             }
+                            .transition(.opacity)
                         }
                     }
-
-                    if viewModel.isRestoring {
-                        HStack {
-                            ProgressView()
-                                .controlSize(.small)
-                            Text(viewModel.progressMessage)
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        }
-                    }
+                    .animation(.easeInOut(duration: 0.2), value: viewModel.errorMessage)
+                    .animation(.easeInOut(duration: 0.2), value: viewModel.restoreSuccess)
+                    .animation(.easeInOut(duration: 0.2), value: viewModel.isRestoring)
 
                     Button {
                         let selected = Set(viewModel.restoreOptions.filter(\.isSelected).map(\.category))

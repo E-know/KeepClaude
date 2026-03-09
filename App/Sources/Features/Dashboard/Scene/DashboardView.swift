@@ -33,6 +33,7 @@ struct DashboardView: View {
                         }
                     }
                 }
+                .listStyle(.sidebar)
             }
         }
         .onAppear {

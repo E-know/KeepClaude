@@ -3,6 +3,7 @@ import SwiftUI
 struct AppSettingsView: View {
     let interactor: any AppSettingsInteracting
     @State var viewModel: AppSettingsViewModel
+    @State private var isPermissionExpanded = false
 
     var body: some View {
         Form {
@@ -17,7 +18,7 @@ struct AppSettingsView: View {
                 }
                 if viewModel.showRestartMessage {
                     Label("언어 변경을 적용하려면 앱을 재시작해주세요.", systemImage: "arrow.clockwise")
-                        .font(.caption)
+                        .font(.callout)
                         .foregroundStyle(.orange)
                 }
             }
@@ -42,7 +43,7 @@ struct AppSettingsView: View {
                 } else {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("GitHub Personal Access Token")
-                            .font(.subheadline)
+                            .font(.body)
                             .foregroundStyle(.secondary)
                         HStack {
                             SecureField("ghp_xxxx...", text: $viewModel.tokenInput)
@@ -50,32 +51,34 @@ struct AppSettingsView: View {
                             Button("연결") {
                                 interactor.handleAction(.connectGitHub(token: viewModel.tokenInput))
                             }
+                            .buttonStyle(.borderedProminent)
                             .disabled(viewModel.tokenInput.isEmpty || viewModel.isLoading)
                         }
-                        DisclosureGroup("필요한 권한 보기") {
+                        DisclosureGroup("필요한 권한 보기", isExpanded: $isPermissionExpanded) {
                             VStack(alignment: .leading, spacing: 6) {
                                 Label("Classic PAT", systemImage: "key")
-                                    .font(.caption.bold())
+                                    .font(.callout.bold())
                                 Text("repo 권한을 선택하세요.")
-                                    .font(.caption)
+                                    .font(.callout)
                                     .padding(.leading, 20)
 
                                 Divider()
 
                                 Label("Fine-grained PAT", systemImage: "key.viewfinder")
-                                    .font(.caption.bold())
+                                    .font(.callout.bold())
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text("• Contents: Read and Write")
                                     Text("• Metadata: Read")
                                 }
-                                .font(.caption)
+                                .font(.callout)
                                 .padding(.leading, 20)
                             }
                             .foregroundStyle(.secondary)
                             .padding(.vertical, 4)
                         }
-                        .font(.caption)
+                        .font(.callout)
                         .foregroundStyle(.secondary)
+                        .animation(.easeInOut, value: isPermissionExpanded)
                     }
                 }
             }
@@ -87,7 +90,7 @@ struct AppSettingsView: View {
                         interactor.handleAction(.updateRepoName(newValue))
                     }
                 Text("GitHub에 생성될 저장소 이름입니다.")
-                    .font(.caption)
+                    .font(.callout)
                     .foregroundStyle(.tertiary)
             }
 

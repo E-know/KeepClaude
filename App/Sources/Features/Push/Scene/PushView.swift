@@ -8,7 +8,7 @@ struct PushView: View {
         HSplitView {
             // Left: Category selection + commit message
             VStack(alignment: .leading, spacing: 16) {
-                GroupBox("동기화 항목") {
+                GroupBox {
                     VStack(alignment: .leading, spacing: 8) {
                         ForEach(viewModel.availableCategories) { category in
                             Toggle(isOn: categoryBinding(for: category)) {
@@ -16,37 +16,52 @@ struct PushView: View {
                             }
                         }
                     }
-                    .padding(.vertical, 4)
+                    .padding(.vertical, 8)
+                } label: {
+                    Label("동기화 항목", systemImage: "checklist")
+                        .font(.headline)
                 }
 
-                GroupBox("커밋 메시지") {
+                GroupBox {
                     TextField("변경 사항을 설명하세요", text: $viewModel.commitMessage, axis: .vertical)
                         .lineLimit(3...6)
                         .textFieldStyle(.plain)
+                } label: {
+                    Label("커밋 메시지", systemImage: "text.bubble")
+                        .font(.headline)
                 }
 
                 Spacer()
 
-                if let error = viewModel.errorMessage {
-                    Label(error, systemImage: "exclamationmark.triangle")
-                        .font(.caption)
-                        .foregroundStyle(.red)
-                }
+                VStack(alignment: .leading, spacing: 4) {
+                    if let error = viewModel.errorMessage {
+                        Label(error, systemImage: "exclamationmark.triangle")
+                            .font(.callout)
+                            .foregroundStyle(.red)
+                            .transition(.opacity)
+                    }
 
-                if viewModel.pushSuccess {
-                    Label("Push 완료!", systemImage: "checkmark.circle.fill")
-                        .foregroundStyle(.green)
-                }
+                    if viewModel.pushSuccess {
+                        Label("Push 완료!", systemImage: "checkmark.circle.fill")
+                            .font(.callout)
+                            .foregroundStyle(.green)
+                            .transition(.opacity)
+                    }
 
-                if viewModel.isPushing {
-                    HStack {
-                        ProgressView()
-                            .controlSize(.small)
-                        Text(viewModel.progressMessage)
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+                    if viewModel.isPushing {
+                        HStack {
+                            ProgressView()
+                                .controlSize(.small)
+                            Text(viewModel.progressMessage)
+                                .font(.callout)
+                                .foregroundStyle(.secondary)
+                        }
+                        .transition(.opacity)
                     }
                 }
+                .animation(.easeInOut(duration: 0.2), value: viewModel.errorMessage)
+                .animation(.easeInOut(duration: 0.2), value: viewModel.pushSuccess)
+                .animation(.easeInOut(duration: 0.2), value: viewModel.isPushing)
 
                 Button {
                     interactor.handleAction(

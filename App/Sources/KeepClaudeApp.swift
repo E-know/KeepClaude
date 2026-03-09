@@ -65,6 +65,8 @@ struct SidebarView: View {
     var body: some View {
         List(SidebarMenu.allCases, selection: $selection) { menu in
             Label(menu.displayName, systemImage: menu.iconName)
+                .font(.title3)
+                .padding(.vertical, 2)
                 .tag(menu)
         }
         .navigationTitle("KeepClaude")

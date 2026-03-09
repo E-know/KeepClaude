@@ -23,12 +23,12 @@ struct SettingsTreeRow: View {
         HStack(spacing: 8) {
             Image(systemName: node.icon)
                 .foregroundStyle(Color.accentColor)
-                .frame(width: 16)
+                .frame(width: 20)
             Text(node.name)
             Spacer()
             if node.fileCount > 1 {
                 Text("\(node.fileCount)\(String(localized: "개"))")
-                    .font(.caption)
+                    .font(.callout)
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 6)
                     .padding(.vertical, 2)
@@ -37,7 +37,7 @@ struct SettingsTreeRow: View {
             }
             if !node.formattedSize.isEmpty {
                 Text(node.formattedSize)
-                    .font(.caption)
+                    .font(.callout)
                     .foregroundStyle(.secondary)
             }
         }
