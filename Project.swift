@@ -2,6 +2,10 @@ import ProjectDescription
 
 let project = Project(
     name: "KeepClaude",
+    options: .options(
+        defaultKnownRegions: ["ko", "en", "ja"],
+        developmentRegion: "ko"
+    ),
     settings: .settings(
         base: [
             "DEVELOPMENT_TEAM": "P2UJWPTGRX",
@@ -21,7 +25,6 @@ let project = Project(
             ]),
             sources: ["App/Sources/**"],
             resources: ["App/Resources/**"],
-            defaultLocalization: "ko",
             entitlements: .dictionary([
                 "com.apple.security.app-sandbox": false
             ])

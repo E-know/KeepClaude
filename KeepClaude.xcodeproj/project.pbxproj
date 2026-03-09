@@ -65,6 +65,7 @@
 		860ECBC44A70BC81FE526862 /* ClaudeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BBCF7C8171754C94A4BF5 /* ClaudeSettings.swift */; };
 		865EBFCE6D51D84E381B7B1A /* ClaudeSettingsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F15E78215DBE07B2F6C0A8 /* ClaudeSettingsRepositoryTests.swift */; };
 		871B9278E1127394602D5EBF /* AppSettingsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7026936410AC2AC1C8C6D /* AppSettingsProtocols.swift */; };
+		8C2CDD77F1926E14A8C3E8E1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 423DEBFBE72BA9850E8AB964 /* Localizable.xcstrings */; };
 		8E9AA0BF7D649BCE7141F461 /* AppSettingsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03933663765B43EE7F278E8 /* AppSettingsConfigurator.swift */; };
 		8E9DAAC6A2DEA637032F1E24 /* SettingsTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE11FB3014EBFD0A108C4FBC /* SettingsTreeNode.swift */; };
 		9046AF1F43B8076628E63D90 /* PullPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0CF2659A2B9366C7501F9 /* PullPresenter.swift */; };
@@ -84,6 +85,7 @@
 		C708B42706871C2FD4B975F6 /* CommandDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512988029AD5BFA19C182B2 /* CommandDefinition.swift */; };
 		CA68BF1D6C06F47581735C15 /* KeychainServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64497BDB190A62EC9D56E522 /* KeychainServicing.swift */; };
 		CD172953F902797C21692B8F /* SettingsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66294EF13EB98D4D05B4B802 /* SettingsCategory.swift */; };
+		CD222BA5DA098383DCFEF5CC /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C9ED9465C45297B455297 /* AppLanguage.swift */; };
 		D4A3E2C4DC5C08EC2000859F /* PullConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4362D269E3978EDC7FD9822 /* PullConfigurator.swift */; };
 		D4F4EF1E2920EBC2C3D8EC19 /* GitHubPushWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF464955BCBFF0B723B1EC3C /* GitHubPushWorkerTests.swift */; };
 		E0B1D1F9091C2413EAC2763F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74979CAE1AC3FFE12A2570F8 /* DashboardView.swift */; };
@@ -142,6 +144,7 @@
 		0DF972EC147F6B4E98D45048 /* PushAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAction.swift; sourceTree = "<group>"; };
 		0E6692832902CEEE00A665CA /* KeepClaudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepClaudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E680340F01508FBB7AA6DEB /* PushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
+		0F0C9ED9465C45297B455297 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
 		1057E22AFE3CCDC0E4DE32FD /* TuistAssets+KeepClaude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+KeepClaude.swift"; sourceTree = "<group>"; };
 		11AB3357CEAD094446576257 /* MockRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepositories.swift; sourceTree = "<group>"; };
 		11B5FC191986C968F69638AD /* SettingsScanWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScanWorking.swift; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 		387EF80F6548F8ECDFFA8699 /* KeepClaudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepClaudeTests.swift; sourceTree = "<group>"; };
 		3A1DFA4CAD05A4AB821BB832 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 		3A258CAEAA3E48ABCDEF4332 /* ClaudeSettingsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeSettingsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		423DEBFBE72BA9850E8AB964 /* Localizable.xcstrings */ = {isa = PBXFileReference; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		4412E7CCF38673C77DFF1038 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
 		4784EC2C944D6EBC92E69E5C /* DashboardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardProtocols.swift; sourceTree = "<group>"; };
 		4801302F0AD3ADED9851E050 /* PushInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushInteractor.swift; sourceTree = "<group>"; };
@@ -265,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				B64F857FA10E3E3AEBE3FA1A /* Components */,
+				0F0C9ED9465C45297B455297 /* AppLanguage.swift */,
 				D05A71BF250EF603B288DA1D /* AuthError.swift */,
 				F4393D2BBC44DA83102CDEE6 /* Constants.swift */,
 				E23DA94EF7F12AD7F1FFBB95 /* PathSubstitution.swift */,
@@ -326,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				EAA3D05642E46D27AF108AB6 /* Assets.xcassets */,
+				423DEBFBE72BA9850E8AB964 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -726,11 +732,12 @@
 			};
 			buildConfigurationList = AF9111CD36D54A82B7F3ECBE /* Build configuration list for PBXProject "KeepClaude" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				ja,
+				ko,
 			);
 			mainGroup = 6391F6C26D202662180BBC7E;
 			productRefGroup = 610D5B2B0FBE476527F86305 /* Products */;
@@ -756,6 +763,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2FA608733E4C264E194E30 /* Assets.xcassets in Resources */,
+				8C2CDD77F1926E14A8C3E8E1 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,6 +866,7 @@
 				306895B65799AFC2F4AA52DB /* GitHubAPIServicing.swift in Sources */,
 				CA68BF1D6C06F47581735C15 /* KeychainServicing.swift in Sources */,
 				664EEAB58D2A597A03AFCD40 /* KeepClaudeApp.swift in Sources */,
+				CD222BA5DA098383DCFEF5CC /* AppLanguage.swift in Sources */,
 				6CD0658E0609EC23DCAF62E1 /* AuthError.swift in Sources */,
 				93F4ADBA46A9BB3C207198C6 /* SettingsTreeView.swift in Sources */,
 				FC056F1EF822914C3F77069D /* Constants.swift in Sources */,
