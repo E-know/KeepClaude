@@ -5,4 +5,6 @@ enum AppSettingsResponse: Sendable {
     case connected(GitHubUser)
     case disconnected
     case loading(Bool)
+    case currentLanguage(AppLanguage)
+    case languageChanged
 }

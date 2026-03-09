@@ -5,4 +5,5 @@ enum AppSettingsAction: Sendable {
     case connectGitHub(token: String)
     case disconnectGitHub
     case updateRepoName(String)
+    case changeLanguage(AppLanguage)
 }

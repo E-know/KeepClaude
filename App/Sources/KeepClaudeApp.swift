@@ -42,10 +42,10 @@ enum SidebarMenu: String, CaseIterable, Identifiable {
 
     var displayName: String {
         switch self {
-        case .dashboard: "설정 현황"
-        case .push: "저장 (Push)"
-        case .pull: "불러오기 (Pull)"
-        case .settings: "설정"
+        case .dashboard: String(localized: "설정 현황")
+        case .push: String(localized: "저장 (Push)")
+        case .pull: String(localized: "불러오기 (Pull)")
+        case .settings: String(localized: "설정")
         }
     }
 

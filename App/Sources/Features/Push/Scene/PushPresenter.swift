@@ -20,7 +20,7 @@ final class PushPresenter: PushPresenting {
                 viewModel.availableCategories = available
                 viewModel.selectedCategories = Set(available.filter(\.isDefaultEnabled))
                 if viewModel.commitMessage.isEmpty {
-                    viewModel.commitMessage = "Claude Code 설정 동기화"
+                    viewModel.commitMessage = String(localized: "Claude Code 설정 동기화")
                 }
             case .pushCompleted:
                 viewModel.isPushing = false

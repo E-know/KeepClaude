@@ -110,14 +110,14 @@ struct PullView: View {
                             LabeledContent("앱 버전", value: manifest.appVersion)
                         }
                         Section("요약") {
-                            LabeledContent("플러그인", value: "\(manifest.summary.pluginCount)개")
-                            LabeledContent("스킬", value: "\(manifest.summary.skillCount)개")
-                            LabeledContent("커맨드", value: "\(manifest.summary.commandCount)개")
-                            LabeledContent("사운드", value: "\(manifest.summary.soundCount)개")
+                            LabeledContent("플러그인", value: "\(manifest.summary.pluginCount)\(String(localized: "개"))")
+                            LabeledContent("스킬", value: "\(manifest.summary.skillCount)\(String(localized: "개"))")
+                            LabeledContent("커맨드", value: "\(manifest.summary.commandCount)\(String(localized: "개"))")
+                            LabeledContent("사운드", value: "\(manifest.summary.soundCount)\(String(localized: "개"))")
                         }
                         Section("카테고리") {
                             ForEach(manifest.categories.sorted(by: { $0.key < $1.key }), id: \.key) { key, enabled in
-                                LabeledContent(key, value: enabled ? "포함" : "미포함")
+                                LabeledContent(key, value: enabled ? String(localized: "포함") : String(localized: "미포함"))
                             }
                         }
                     }

@@ -10,13 +10,13 @@ enum KeychainError: LocalizedError, Sendable {
     var errorDescription: String? {
         switch self {
         case .itemNotFound:
-            "Keychain에서 항목을 찾을 수 없습니다."
+            String(localized: "Keychain에서 항목을 찾을 수 없습니다.")
         case .duplicateItem:
-            "Keychain에 이미 동일한 항목이 존재합니다."
+            String(localized: "Keychain에 이미 동일한 항목이 존재합니다.")
         case .invalidData:
-            "Keychain 데이터 형식이 잘못되었습니다."
+            String(localized: "Keychain 데이터 형식이 잘못되었습니다.")
         case .unexpectedStatus(let status):
-            "Keychain 오류: \(status)"
+            String(localized: "Keychain 오류: \(status)")
         }
     }
 }

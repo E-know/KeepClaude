@@ -10,4 +10,6 @@ final class AppSettingsViewModel {
     var isLoading = false
     var errorMessage: String?
     var successMessage: String?
+    var selectedLanguage: AppLanguage = .system
+    var showRestartMessage = false
 }

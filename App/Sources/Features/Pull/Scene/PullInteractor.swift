@@ -55,10 +55,10 @@ final class PullInteractor: PullInteracting, @unchecked Sendable {
     private func executeRestore(categories: Set<SettingsCategory>) {
         guard let remote = remoteSettings else { return }
         Task {
-            presenter.present(.restoreProgress("백업 생성 중..."))
+            presenter.present(.restoreProgress(String(localized: "백업 생성 중...")))
             do {
                 let backupURL = try await restoreWorker.backup()
-                presenter.present(.restoreProgress("설정 복원 중..."))
+                presenter.present(.restoreProgress(String(localized: "설정 복원 중...")))
                 try await restoreWorker.restore(remote, categories: categories)
                 presenter.present(.restoreCompleted(backupURL: backupURL))
             } catch {

@@ -1,0 +1,860 @@
+{
+  "sourceLanguage" : "ko",
+  "version" : "1.0",
+  "strings" : {
+    "설정 현황" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Settings Overview" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定状況" }
+        }
+      }
+    },
+    "저장 (Push)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Save (Push)" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "保存 (Push)" }
+        }
+      }
+    },
+    "불러오기 (Pull)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Load (Pull)" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "読み込み (Pull)" }
+        }
+      }
+    },
+    "설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Settings" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定" }
+        }
+      }
+    },
+    "KeepClaude" : {
+      "localizations" : {}
+    },
+    "핵심 설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Core Settings" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "コア設定" }
+        }
+      }
+    },
+    "로컬 설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Local Settings" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "ローカル設定" }
+        }
+      }
+    },
+    "키바인딩" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Keybindings" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "キーバインド" }
+        }
+      }
+    },
+    "플러그인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Plugins" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "プラグイン" }
+        }
+      }
+    },
+    "스킬" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Skills" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "スキル" }
+        }
+      }
+    },
+    "커맨드" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Commands" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "コマンド" }
+        }
+      }
+    },
+    "사운드" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Sounds" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "サウンド" }
+        }
+      }
+    },
+    "GitHub 연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub Connection" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub接続" }
+        }
+      }
+    },
+    "연결 해제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Disconnect" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "接続解除" }
+        }
+      }
+    },
+    "GitHub Personal Access Token" : {
+      "localizations" : {}
+    },
+    "ghp_xxxx..." : {
+      "localizations" : {}
+    },
+    "연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Connect" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "接続" }
+        }
+      }
+    },
+    "필요한 권한 보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "View Required Permissions" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "必要な権限を見る" }
+        }
+      }
+    },
+    "Classic PAT" : {
+      "localizations" : {}
+    },
+    "repo 권한을 선택하세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Select the repo permission." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "repo権限を選択してください。" }
+        }
+      }
+    },
+    "Fine-grained PAT" : {
+      "localizations" : {}
+    },
+    "• Contents: Read and Write" : {
+      "localizations" : {}
+    },
+    "• Metadata: Read" : {
+      "localizations" : {}
+    },
+    "저장소" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Repository" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リポジトリ" }
+        }
+      }
+    },
+    "저장소 이름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Repository name" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リポジトリ名" }
+        }
+      }
+    },
+    "GitHub에 생성될 저장소 이름입니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "This is the repository name that will be created on GitHub." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHubに作成されるリポジトリ名です。" }
+        }
+      }
+    },
+    "설정 파일 스캔 중..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Scanning settings files..." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定ファイルをスキャン中..." }
+        }
+      }
+    },
+    "Claude Code 설정을 찾을 수 없습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Claude Code settings not found" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Claude Code設定が見つかりません" }
+        }
+      }
+    },
+    "~/.claude/ 디렉토리가 존재하지 않습니다.\nClaude Code를 먼저 설치해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "The ~/.claude/ directory does not exist.\nPlease install Claude Code first." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "~/.claude/ ディレクトリが存在しません。\nClaude Codeを先にインストールしてください。" }
+        }
+      }
+    },
+    "오류 발생" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Error Occurred" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "エラー発生" }
+        }
+      }
+    },
+    "~/.claude/" : {
+      "localizations" : {}
+    },
+    "새로고침" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Refresh" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "更新" }
+        }
+      }
+    },
+    "동기화 항목" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Sync Items" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "同期項目" }
+        }
+      }
+    },
+    "커밋 메시지" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Commit Message" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "コミットメッセージ" }
+        }
+      }
+    },
+    "변경 사항을 설명하세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Describe your changes" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "変更内容を説明してください" }
+        }
+      }
+    },
+    "Push 완료!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Push completed!" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Push完了！" }
+        }
+      }
+    },
+    "GitHub에 저장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Save to GitHub" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHubに保存" }
+        }
+      }
+    },
+    "GitHub 연결 필요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub Connection Required" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub接続が必要です" }
+        }
+      }
+    },
+    "설정 탭에서 GitHub Personal Access Token을 먼저 연결해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Please connect your GitHub Personal Access Token in the Settings tab first." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定タブでGitHub Personal Access Tokenを先に接続してください。" }
+        }
+      }
+    },
+    "항목을 선택하세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Select items" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "項目を選択してください" }
+        }
+      }
+    },
+    "왼쪽에서 동기화할 항목을 선택해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Please select items to sync from the left panel." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "左側から同期する項目を選択してください。" }
+        }
+      }
+    },
+    "선택된 항목" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Selected Items" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "選択された項目" }
+        }
+      }
+    },
+    "원격 저장소" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Remote Repository" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リモートリポジトリ" }
+        }
+      }
+    },
+    "불러오기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Load" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "読み込み" }
+        }
+      }
+    },
+    "복원 항목" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Items to Restore" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "復元項目" }
+        }
+      }
+    },
+    "(로컬에 존재)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "(exists locally)" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "(ローカルに存在)" }
+        }
+      }
+    },
+    "복원 완료!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Restore completed!" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "復元完了！" }
+        }
+      }
+    },
+    "백업: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Backup: %@" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "バックアップ: %@" }
+        }
+      }
+    },
+    "설정 복원" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Restore Settings" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定復元" }
+        }
+      }
+    },
+    "원격 설정 불러오는 중..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Loading remote settings..." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リモート設定を読み込み中..." }
+        }
+      }
+    },
+    "동기화 정보" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Sync Info" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "同期情報" }
+        }
+      }
+    },
+    "동기화 시각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Synced At" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "同期時刻" }
+        }
+      }
+    },
+    "동기화 사용자" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Synced By" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "同期ユーザー" }
+        }
+      }
+    },
+    "플랫폼" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Platform" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "プラットフォーム" }
+        }
+      }
+    },
+    "앱 버전" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "App Version" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "アプリバージョン" }
+        }
+      }
+    },
+    "요약" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Summary" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "要約" }
+        }
+      }
+    },
+    "개" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "個" }
+        }
+      }
+    },
+    "카테고리" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Categories" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "カテゴリ" }
+        }
+      }
+    },
+    "포함" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Included" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "含む" }
+        }
+      }
+    },
+    "미포함" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Excluded" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "含まない" }
+        }
+      }
+    },
+    "저장소를 입력하세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Enter a repository" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リポジトリを入力してください" }
+        }
+      }
+    },
+    "GitHub 저장소 URL을 입력한 후 불러오기를 눌러주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Enter a GitHub repository URL and click Load." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHubリポジトリURLを入力し、読み込みを押してください。" }
+        }
+      }
+    },
+    "매니페스트 없음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "No Manifest" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "マニフェストなし" }
+        }
+      }
+    },
+    "원격 저장소에 manifest.json이 없습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "No manifest.json found in the remote repository." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リモートリポジトリにmanifest.jsonがありません。" }
+        }
+      }
+    },
+    "GitHub에 연결되어 있지 않습니다. 설정에서 Personal Access Token을 입력해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Not connected to GitHub. Please enter your Personal Access Token in Settings." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHubに接続されていません。設定でPersonal Access Tokenを入力してください。" }
+        }
+      }
+    },
+    "유효하지 않은 토큰입니다. 토큰을 다시 확인해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Invalid token. Please check your token again." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "無効なトークンです。トークンを再確認してください。" }
+        }
+      }
+    },
+    "토큰이 만료되었습니다. 새 토큰을 발급받아주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Token has expired. Please generate a new token." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "トークンが期限切れです。新しいトークンを発行してください。" }
+        }
+      }
+    },
+    "Keychain에서 항목을 찾을 수 없습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Item not found in Keychain." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Keychainに項目が見つかりません。" }
+        }
+      }
+    },
+    "Keychain에 이미 동일한 항목이 존재합니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "A duplicate item already exists in Keychain." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Keychainに同じ項目が既に存在します。" }
+        }
+      }
+    },
+    "Keychain 데이터 형식이 잘못되었습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Invalid Keychain data format." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Keychainデータの形式が正しくありません。" }
+        }
+      }
+    },
+    "Keychain 오류: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Keychain error: %@" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Keychainエラー: %@" }
+        }
+      }
+    },
+    "잘못된 URL입니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Invalid URL." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "無効なURLです。" }
+        }
+      }
+    },
+    "서버 응답 오류입니다. (HTTP %lld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Server response error. (HTTP %lld)" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "サーバー応答エラーです。(HTTP %lld)" }
+        }
+      }
+    },
+    "인증이 필요합니다. GitHub Personal Access Token을 확인해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Authentication required. Please check your GitHub Personal Access Token." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "認証が必要です。GitHub Personal Access Tokenを確認してください。" }
+        }
+      }
+    },
+    "접근 권한이 없습니다. GitHub Token의 권한(scope)을 확인해주세요. (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Access denied. Please check your GitHub Token permissions (scope). (%@)" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "アクセス権限がありません。GitHub Tokenの権限(scope)を確認してください。(%@)" }
+        }
+      }
+    },
+    "GitHub API 요청 한도를 초과했습니다. %@에 초기화됩니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub API rate limit exceeded. Resets at %@." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub APIリクエスト制限を超えました。%@にリセットされます。" }
+        }
+      }
+    },
+    "GitHub API 요청 한도를 초과했습니다. 잠시 후 다시 시도해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub API rate limit exceeded. Please try again later." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub APIリクエスト制限を超えました。しばらくしてから再試行してください。" }
+        }
+      }
+    },
+    "요청한 리소스를 찾을 수 없습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "The requested resource was not found." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リクエストされたリソースが見つかりません。" }
+        }
+      }
+    },
+    "요청이 거부되었습니다: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Request rejected: %@" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "リクエストが拒否されました: %@" }
+        }
+      }
+    },
+    "응답 데이터 파싱 오류: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Response data parsing error: %@" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "応答データのパースエラー: %@" }
+        }
+      }
+    },
+    "네트워크 오류: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Network error: %@" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "ネットワークエラー: %@" }
+        }
+      }
+    },
+    "설정 업로드 중..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Uploading settings..." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定をアップロード中..." }
+        }
+      }
+    },
+    "백업 생성 중..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Creating backup..." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "バックアップ作成中..." }
+        }
+      }
+    },
+    "설정 복원 중..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Restoring settings..." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "設定を復元中..." }
+        }
+      }
+    },
+    "Claude Code 설정 동기화" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Claude Code Settings Sync" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "Claude Code設定同期" }
+        }
+      }
+    },
+    "GitHub에 연결되었습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Connected to GitHub." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHubに接続しました。" }
+        }
+      }
+    },
+    "GitHub 연결이 해제되었습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Disconnected from GitHub." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "GitHub接続が解除されました。" }
+        }
+      }
+    },
+    "언어" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Language" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "言語" }
+        }
+      }
+    },
+    "앱 언어" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "App Language" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "アプリの言語" }
+        }
+      }
+    },
+    "시스템 기본값" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "System Default" }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "システムデフォルト" }
+        }
+      }
+    },
+    "언어 변경을 적용하려면 앱을 재시작해주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : { "state" : "translated", "value" : "Restart the app to apply the language change." }
+        },
+        "ja" : {
+          "stringUnit" : { "state" : "translated", "value" : "言語の変更を適用するにはアプリを再起動してください。" }
+        }
+      }
+    }
+  }
+}

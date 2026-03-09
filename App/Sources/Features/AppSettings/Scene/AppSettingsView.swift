@@ -6,6 +6,22 @@ struct AppSettingsView: View {
 
     var body: some View {
         Form {
+            Section("언어") {
+                Picker("앱 언어", selection: $viewModel.selectedLanguage) {
+                    ForEach(AppLanguage.allCases) { language in
+                        Text(language.displayName).tag(language)
+                    }
+                }
+                .onChange(of: viewModel.selectedLanguage) { _, newValue in
+                    interactor.handleAction(.changeLanguage(newValue))
+                }
+                if viewModel.showRestartMessage {
+                    Label("언어 변경을 적용하려면 앱을 재시작해주세요.", systemImage: "arrow.clockwise")
+                        .font(.caption)
+                        .foregroundStyle(.orange)
+                }
+            }
+
             Section("GitHub 연결") {
                 if viewModel.isAuthenticated, let user = viewModel.currentUser {
                     HStack(spacing: 12) {

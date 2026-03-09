@@ -13,13 +13,13 @@ enum SettingsCategory: String, CaseIterable, Codable, Sendable, Identifiable {
 
     var displayName: String {
         switch self {
-        case .coreSettings: "핵심 설정"
-        case .localSettings: "로컬 설정"
-        case .keybindings: "키바인딩"
-        case .plugins: "플러그인"
-        case .skills: "스킬"
-        case .commands: "커맨드"
-        case .sounds: "사운드"
+        case .coreSettings: String(localized: "핵심 설정")
+        case .localSettings: String(localized: "로컬 설정")
+        case .keybindings: String(localized: "키바인딩")
+        case .plugins: String(localized: "플러그인")
+        case .skills: String(localized: "스킬")
+        case .commands: String(localized: "커맨드")
+        case .sounds: String(localized: "사운드")
         }
     }
 

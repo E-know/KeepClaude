@@ -21,6 +21,7 @@ let project = Project(
             ]),
             sources: ["App/Sources/**"],
             resources: ["App/Resources/**"],
+            defaultLocalization: "ko",
             entitlements: .dictionary([
                 "com.apple.security.app-sandbox": false
             ])

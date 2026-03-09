@@ -41,7 +41,7 @@ final class PushInteractor: PushInteracting, @unchecked Sendable {
     private func executePush(categories: Set<SettingsCategory>, message: String) {
         Task {
             presenter.present(.loading(true))
-            presenter.present(.pushProgress("설정 업로드 중..."))
+            presenter.present(.pushProgress(String(localized: "설정 업로드 중...")))
             do {
                 try await pushWorker.push(categories: categories, message: message)
                 presenter.present(.pushCompleted)

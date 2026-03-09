@@ -22,13 +22,17 @@ final class AppSettingsPresenter: AppSettingsPresenting {
                 viewModel.isAuthenticated = true
                 viewModel.currentUser = user
                 viewModel.tokenInput = ""
-                viewModel.successMessage = "GitHub에 연결되었습니다."
+                viewModel.successMessage = String(localized: "GitHub에 연결되었습니다.")
             case .disconnected:
                 viewModel.isAuthenticated = false
                 viewModel.currentUser = nil
-                viewModel.successMessage = "GitHub 연결이 해제되었습니다."
+                viewModel.successMessage = String(localized: "GitHub 연결이 해제되었습니다.")
             case .loading(let isLoading):
                 viewModel.isLoading = isLoading
+            case .currentLanguage(let language):
+                viewModel.selectedLanguage = language
+            case .languageChanged:
+                viewModel.showRestartMessage = true
             }
         }
     }
