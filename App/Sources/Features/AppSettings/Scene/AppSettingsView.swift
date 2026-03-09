@@ -7,13 +7,13 @@ struct AppSettingsView: View {
     var body: some View {
         Form {
             Section("언어") {
-                Picker("앱 언어", selection: $viewModel.selectedLanguage) {
+                Picker("앱 언어", selection: Binding(
+                    get: { viewModel.selectedLanguage },
+                    set: { interactor.handleAction(.changeLanguage($0)) }
+                )) {
                     ForEach(AppLanguage.allCases) { language in
                         Text(language.displayName).tag(language)
                     }
-                }
-                .onChange(of: viewModel.selectedLanguage) { _, newValue in
-                    interactor.handleAction(.changeLanguage(newValue))
                 }
                 if viewModel.showRestartMessage {
                     Label("언어 변경을 적용하려면 앱을 재시작해주세요.", systemImage: "arrow.clockwise")

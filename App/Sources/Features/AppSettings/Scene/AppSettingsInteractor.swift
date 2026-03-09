@@ -12,13 +12,7 @@ final class AppSettingsInteractor: AppSettingsInteracting, @unchecked Sendable {
     func handleAction(_ action: AppSettingsAction) {
         switch action {
         case .onAppear:
-            if let languages = UserDefaults.standard.array(forKey: "AppleLanguages") as? [String],
-               let first = languages.first,
-               let appLang = AppLanguage(rawValue: first) {
-                presenter.present(.currentLanguage(appLang))
-            } else {
-                presenter.present(.currentLanguage(.system))
-            }
+            presenter.present(.currentLanguage(currentLanguage))
             Task {
                 presenter.present(.loading(true))
                 do {
@@ -51,12 +45,22 @@ final class AppSettingsInteractor: AppSettingsInteracting, @unchecked Sendable {
         case .updateRepoName:
             break
         case .changeLanguage(let language):
+            guard language != currentLanguage else { return }
             if language == .system {
-                UserDefaults.standard.removeObject(forKey: "AppleLanguages")
+                UserDefaults.standard.removeObject(forKey: Constants.appleLanguagesKey)
             } else {
-                UserDefaults.standard.set([language.rawValue], forKey: "AppleLanguages")
+                UserDefaults.standard.set([language.rawValue], forKey: Constants.appleLanguagesKey)
             }
-            presenter.present(.languageChanged)
+            presenter.present(.languageChanged(language))
         }
+    }
+
+    private var currentLanguage: AppLanguage {
+        if let languages = UserDefaults.standard.array(forKey: Constants.appleLanguagesKey) as? [String],
+           let first = languages.first,
+           let appLang = AppLanguage(rawValue: first) {
+            return appLang
+        }
+        return .system
     }
 }

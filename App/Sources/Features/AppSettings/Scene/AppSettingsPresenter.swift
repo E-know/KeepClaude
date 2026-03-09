@@ -31,7 +31,9 @@ final class AppSettingsPresenter: AppSettingsPresenting {
                 viewModel.isLoading = isLoading
             case .currentLanguage(let language):
                 viewModel.selectedLanguage = language
-            case .languageChanged:
+                viewModel.showRestartMessage = false
+            case .languageChanged(let language):
+                viewModel.selectedLanguage = language
                 viewModel.showRestartMessage = true
             }
         }

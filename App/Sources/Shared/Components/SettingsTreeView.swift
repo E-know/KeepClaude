@@ -27,7 +27,7 @@ struct SettingsTreeRow: View {
             Text(node.name)
             Spacer()
             if node.fileCount > 1 {
-                Text("\(node.fileCount)개")
+                Text("\(node.fileCount)\(String(localized: "개"))")
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 6)

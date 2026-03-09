@@ -6,5 +6,5 @@ enum AppSettingsResponse: Sendable {
     case disconnected
     case loading(Bool)
     case currentLanguage(AppLanguage)
-    case languageChanged
+    case languageChanged(AppLanguage)
 }

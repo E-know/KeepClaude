@@ -9,6 +9,7 @@ enum Constants {
     static let manifestFileName = "manifest.json"
     static let manifestVersion = "1.0"
     static let appVersion = "1.0.0"
+    static let appleLanguagesKey = "AppleLanguages"
 
     static var claudeDirectoryURL: URL {
         FileManager.default.homeDirectoryForCurrentUser
